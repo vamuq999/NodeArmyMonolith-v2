@@ -1,5 +1,6 @@
 import ActionConsole from "../components/ActionConsole";
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col items-center justify-start py-10 space-y-10">
