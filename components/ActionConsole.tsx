@@ -3,6 +3,8 @@ import { ethers } from "ethers";
 import { getBrowserProvider } from "../src/lib/provider";
 import { getContract } from "../src/lib/contract";
 import { useAnimatedNumber } from "../src/hooks/useAnimatedNumber";
+import FloatingMerit from "./FloatingMerit";
+import TxStatus from "./TxStatus";
 
 export default function ActionConsole() {
   const [address, setAddress] = useState<string>();
