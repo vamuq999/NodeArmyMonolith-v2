@@ -4,7 +4,8 @@ import { ethers } from "ethers";
 import { getBrowserProvider } from "../src/lib/provider";
 import { getContract } from "../src/lib/contract";
 import { useAnimatedNumber } from "../src/hooks/useAnimatedNumber";
-import FloatingMerit from "./FloatingMerit";
+import FloatingMerit from "../components/FloatingMerit";
+import TxStatus from "../components/txStatus";
 
 const TierNames = ["NONE", "SCOUT", "OPERATOR", "OVERSEER"];
 
